@@ -6,7 +6,7 @@ on:
 
 jobs:
   create-ticket:
-    uses: cleanstart-dev/.github/.github/workflows/reusable-jira-integration.yml@main
+    uses: cleanstart-dev/.github/workflows/reusable-jira-integration.yml@main
     with:
       project_key: 'GHRT'
       issue_type: 'Task'
