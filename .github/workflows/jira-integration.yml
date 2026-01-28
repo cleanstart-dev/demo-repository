@@ -1,5 +1,9 @@
 name: Create Jira Ticket
 
+permissions:
+  issues: write
+  contents: read
+
 on:
   issues:
     types: [opened]
